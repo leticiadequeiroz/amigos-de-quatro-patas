@@ -4,7 +4,7 @@ const projetos = [
         titulo: "Resgate e acolhimento",
         categoria: "Resgate",
         descricao: "As ações de resgate buscam oferecer proteção e acolhimento aos animais que precisam de cuidados. Após o resgate, os animais recebem atenção e cuidados necessários até encontrarem uma nova oportunidade de adoção.",
-        imagem: "../imagens/04_cachorro_em_recuperacao.png",
+        imagem: "/imagens/04_cachorro_em_recuperacao.png",
         alt: "Cachorro recebendo cuidados durante sua recuperação"
     },
     {
@@ -12,7 +12,7 @@ const projetos = [
         titulo: "Doações",
         categoria: "Doação",
         descricao: "As doações contribuem para a manutenção das ações da ONG, ajudando nos cuidados, alimentação e demais necessidades dos animais acolhidos.",
-        imagem: "../imagens/05_arara_resgatada.png",
+        imagem: "/imagens/05_arara_resgatada.png",
         alt: "Arara resgatada pela ONG Amigos de Quatro Patas",
         botao: "Cadastre-se para ajudar",
         destino: "#cadastro"
@@ -22,7 +22,7 @@ const projetos = [
         titulo: "Voluntariado",
         categoria: "Voluntariado",
         descricao: "O trabalho voluntário permite que pessoas interessadas contribuam com as atividades da ONG e auxiliem nas ações de cuidado e proteção dos animais.",
-        imagem: "../imagens/montagem_amigos_de_quatro_patas.png",
+        imagem: "/imagens/montagem_amigos_de_quatro_patas.png",
         alt: "Montagem com imagens relacionadas às ações da ONG Amigos de Quatro Patas",
         botao: "Quero ser voluntário",
         destino: "#cadastro"
@@ -32,7 +32,7 @@ const projetos = [
         titulo: "Adoção responsável",
         categoria: "Adoção",
         descricao: "A adoção responsável busca proporcionar aos animais um novo lar com pessoas preparadas para oferecer cuidado, proteção e bem-estar.",
-        imagem: "../imagens/03_coelho_resgatado.png",
+        imagem: "/imagens/03_coelho_resgatado.png",
         alt: "Coelho resgatado disponível para adoção responsável",
         botao: "Tenho interesse em ajudar",
         destino: "#cadastro"
@@ -85,8 +85,8 @@ export const paginas = {
                 que precisam de cuidado, proteção e um novo lar.
             </p>
 
-            <img src="../imagens/nossa_missao_amigos_de_quatro_patas.png"
-                 alt="Imagem representando a missão da ONG Amigos de Quatro Patas">
+        <img src="/imagens/nossa_missao_amigos_de_quatro_patas.png"
+            alt="Imagem representando a missão da ONG Amigos de Quatro Patas">
         </section>
 
         <section>
@@ -123,7 +123,7 @@ export const paginas = {
             em situação de vulnerabilidade.
         </p>
 
-        <img src="../imagens/02_animais_resgatados.png"
+       <img src="/imagens/02_animais_resgatados.png"
              alt="Animais resgatados pela ONG Amigos de Quatro Patas">
     </section>
 
