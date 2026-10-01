@@ -1,0 +1,25 @@
+{
+  "name": "projeto-amigo-de-quatro-patas",
+  "version": "1.0.0",
+  "description": "Projeto acadêmico desenvolvido na disciplina de Desenvolvimento Front-End para Web.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leticiadequeiroz/amigos-de-quatro-patas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leticiadequeiroz/amigos-de-quatro-patas/issues"
+  },
+  "homepage": "https://github.com/leticiadequeiroz/amigos-de-quatro-patas#readme",
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}

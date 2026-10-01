@@ -1,0 +1,10 @@
+const { resolve } = require("path");
+const { defineConfig } = require("vite");
+
+module.exports = defineConfig({
+    build: {
+        rollupOptions: {
+            input: resolve(__dirname, "html/index.html")
+        }
+    }
+});
