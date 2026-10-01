@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Amigos de Quatro Patas</title>
+    <<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo">
+            <img src="../imagens/logo_amigos_de_quatro_patas.png"
+                 alt="Logo da ONG Amigos de Quatro Patas">
+        </a>
+
+        <h1>Amigos de Quatro Patas</h1>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle"
+               class="menu-hamburguer"
+               aria-label="Abrir ou fechar menu">
+            ☰
+        </label>
+
+        <nav class="navegacao">
+            <ul class="menu">
+
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="menu-item-dropdown">
+                    <a href="projetos.html">Projetos</a>
+
+                    <ul class="submenu">
+
+                        <li>
+                            <a href="projetos.html#resgate">
+                                Resgate e acolhimento
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="projetos.html#doacoes">
+                                Doações
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="projetos.html#voluntariado">
+                                Voluntariado
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="projetos.html#adocao">
+                                Adoção responsável
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="cadastro.html">Cadastro</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="grid-principal">
+
+        <section>
+            <h2>Nossos projetos</h2>
+
+            <p>
+                A Amigos de Quatro Patas desenvolve ações voltadas ao resgate,
+                acolhimento, cuidado e proteção de cães, gatos e outros animais
+                em situação de vulnerabilidade.
+            </p>
+
+            <img src="../imagens/02_animais_resgatados.png"
+                 alt="Animais resgatados pela ONG Amigos de Quatro Patas">
+        </section>
+
+        <section id="resgate">
+            <h2>Resgate e acolhimento</h2>
+
+            <span class="badge">Resgate</span>
+
+            <p>
+                As ações de resgate buscam oferecer proteção e acolhimento aos
+                animais que precisam de cuidados. Após o resgate, os animais
+                recebem atenção e cuidados necessários até encontrarem uma
+                nova oportunidade de adoção.
+            </p>
+
+            <img src="../imagens/04_cachorro_em_recuperacao.png"
+                 alt="Cachorro recebendo cuidados durante sua recuperação">
+        </section>
+
+        <section id="doacoes">
+            <h2>Doações</h2>
+
+            <span class="badge">Doação</span>
+
+            <p>
+                As doações contribuem para a manutenção das ações da ONG,
+                ajudando nos cuidados, alimentação e demais necessidades dos
+                animais acolhidos.
+            </p>
+
+            <p>
+                Para saber como contribuir, entre em contato com a
+                Amigos de Quatro Patas.
+            </p>
+
+            <img src="../imagens/05_arara_resgatada.png"
+                 alt="Arara resgatada pela ONG Amigos de Quatro Patas">
+
+            <a href="cadastro.html">
+                Cadastre-se para ajudar
+            </a>
+        </section>
+
+        <section id="voluntariado">
+            <h2>Voluntariado</h2>
+
+              <span class="badge">Voluntariado</span>
+
+            <p>
+                O trabalho voluntário permite que pessoas interessadas
+                contribuam com as atividades da ONG e auxiliem nas ações
+                de cuidado e proteção dos animais.
+            </p>
+
+            <img src="../imagens/montagem_amigos_de_quatro_patas.png"
+                 alt="Montagem com imagens relacionadas às ações da ONG Amigos de Quatro Patas">
+
+            <p>
+                Para demonstrar interesse em participar, realize seu cadastro
+                e informe sua forma de participação.
+            </p>
+
+            <a href="cadastro.html">
+                Quero ser voluntário
+            </a>
+        </section>
+
+        <section id="adocao">
+            <h2>Adoção responsável</h2>
+
+            <span class="badge">Adoção</span>
+
+                        <p>
+                A adoção responsável busca proporcionar aos animais um novo
+                lar com pessoas preparadas para oferecer cuidado, proteção
+                e bem-estar.
+            </p>
+
+            <div class="alerta" role="alert">
+    <strong>Antes de adotar:</strong>
+    certifique-se de que você está preparado para assumir essa responsabilidade
+    e oferecer ao animal tempo, cuidados e um lar seguro durante toda a sua vida.
+</div>
+
+<a href="#modal-adocao" class="botao-modal">
+    Saiba mais antes de adotar
+</a>
+
+<div id="modal-adocao" class="modal">
+    <div class="modal-conteudo">
+
+        <a href="#" class="modal-fechar" aria-label="Fechar modal">
+            &times;
+        </a>
+
+        <h3>Adoção responsável</h3>
+
+        <p>
+            Antes de adotar, considere se você possui tempo,
+            disponibilidade e condições para oferecer os cuidados
+            necessários ao animal durante toda a sua vida.
+        </p>
+
+        <a href="cadastro.html" class="modal-acao">
+            Tenho interesse em ajudar
+        </a>
+
+    </div>
+</div>
+
+            <img src="../imagens/03_coelho_resgatado.png"
+                 alt="Coelho resgatado disponível para adoção responsável">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Amigos de Quatro Patas - Resgate, proteção e cuidado animal.
+        </p>
+    </footer>
+
+     <script src="../js/script.js"></script>
+
+</body>
+
+</html>
