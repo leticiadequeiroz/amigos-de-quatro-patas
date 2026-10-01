@@ -31,3 +31,9 @@ A aplicação apresenta a ONG fictícia Amigos de Quatro Patas, dedicada ao resg
 ## Versionamento
 
 O projeto utiliza Git para controle de versões e uma estrutura de branches baseada no GitFlow, com `main`, `develop` e branches `feature/`.
+
+### Estratégia de branches
+
+- `main`: versão estável do projeto.
+- `develop`: integração das alterações em desenvolvimento.
+- `feature/`: desenvolvimento isolado de novas funcionalidades.
