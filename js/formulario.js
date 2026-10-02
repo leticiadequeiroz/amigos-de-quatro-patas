@@ -34,6 +34,8 @@ export function atualizarMensagemCampo(campo) {
     if (!mensagem || !mensagem.classList.contains("mensagem-campo")) {
         mensagem = document.createElement("small");
         mensagem.classList.add("mensagem-campo");
+        mensagem.setAttribute("role", "status");
+        mensagem.setAttribute("aria-live", "polite");
         campo.insertAdjacentElement("afterend", mensagem);
     }
 

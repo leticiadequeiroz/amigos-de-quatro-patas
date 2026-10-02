@@ -64,6 +64,11 @@ a:hover {
     color: var(--cor-secundaria);
 }
 
+a:focus-visible {
+    outline: 3px solid var(--cor-primaria-escura);
+    outline-offset: 3px;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -313,7 +318,7 @@ form {
 }
 
 .mensagem-erro {
-    color: var(--cor-secundaria);
+    color: #A63C00;
 }
 
 .mensagem-sucesso {
@@ -730,6 +735,33 @@ footer p {
 
     main > section {
         padding: var(--espaco-7);
+    }
+
+}
+
+/* ========================================
+   ACESSIBILIDADE - ALTO CONTRASTE
+   ======================================== */
+
+@media (prefers-contrast: more) {
+
+    :root {
+        --cor-primaria: #005A00;
+        --cor-primaria-escura: #003D00;
+        --cor-secundaria: #8A3200;
+        --cor-destaque: #7A5200;
+        --cor-fundo: #FFFFFF;
+        --cor-superficie: #FFFFFF;
+        --cor-texto: #000000;
+        --cor-texto-secundario: #1A1A1A;
+        --cor-borda: #000000;
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible {
+        outline: 3px solid #000000;
+        outline-offset: 3px;
     }
 
 }

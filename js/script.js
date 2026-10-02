@@ -42,6 +42,9 @@ function carregarPagina() {
 
         formulario.insertAdjacentElement("beforebegin", historico);
     }
+    
+    conteudoPrincipal.focus();
+    
 }
 
 window.addEventListener("hashchange", carregarPagina);
